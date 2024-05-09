@@ -3,7 +3,7 @@ import streamlit as st
 
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Portfolio", page_icon=":tada:", layout="wide")
 
 lottie_coding = "https://app.lottiefiles.com/animation/272fb5b7-a1fb-4e24-aeb6-ce94eec51b6b"
 with st.container():
