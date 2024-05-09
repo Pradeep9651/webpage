@@ -1,7 +1,11 @@
 import streamlit as st
 
 
+from PIL import Image
 
+# --- PATH SETTINGS ---
+current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+profile_pic = current_dir / "assets" / "profile-pic.png"
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 with st.container():
