@@ -14,7 +14,7 @@ with st.container():
     st.subheader("Hi, I am Pradeep  :wave:")
     st.title("A Software engineer from India")
     st.write("i am passionate about finding ways to use python and VBA to be moreeffective")
-    st.write("Know more")
+    st.write("Know more :")
     st.write("[Linkedin >](https://www.linkedin.com/in/pradeep-yadav-5aa47a20b/)")
     st.write("[Github >](https://github.com/Pradeep9651)")
 
