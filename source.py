@@ -19,8 +19,7 @@ with st.container():
         st.header("What I do")
         st.write("##")
         st.write(
-            """
-             On my YouTube channel I am creating tutorials for people who:
+            """I
             - are looking for a way to leverage the power of Python in their day-to-day work.
             - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
             - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
