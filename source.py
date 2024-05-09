@@ -24,9 +24,6 @@ with st.container():
         st.write("##")
         st.write(
             """
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way.
+           - "there has to be a better way.
             """
         )
