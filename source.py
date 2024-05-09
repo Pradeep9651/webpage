@@ -15,6 +15,7 @@ with st.container():
     st.title("A Software engineer from India")
     st.write("i am passionate about finding ways to use python and VBA to be moreeffective")
     st.write("[Know More >](https://www.linkedin.com/in/pradeep-yadav-5aa47a20b/)")
+    st.write("[Github >](https://github.com/Pradeep9651)")
 
 with st.container():
     st.write("---")
