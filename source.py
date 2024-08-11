@@ -8,7 +8,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 resume_file = current_dir / "assets" / "CV_Pradeep_Yadav.pdf"
 
 # --- PAGE SETTINGS ---
-st.set_page_config(page_title="Pradeep Yadav", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 # --- HEADER ---
 with st.container():
@@ -31,12 +31,15 @@ with st.container():
 
 # --- RESUME DOWNLOAD ---
 with st.container():
-    with open(resume_file, "rb") as pdf_file:
-        PDFbyte = pdf_file.read()
-        st.download_button(label="Download Resume", 
-                           data=PDFbyte,
-                           file_name="CV_Pradeep_Yadav.pdf",
-                           mime='application/octet-stream')
+    if resume_file.exists():
+        with open(resume_file, "rb") as pdf_file:
+            PDFbyte = pdf_file.read()
+            st.download_button(label="Download Resume", 
+                               data=PDFbyte,
+                               file_name="CV_Pradeep_Yadav.pdf",
+                               mime='application/octet-stream')
+    else:
+        st.error("Resume file not found. Please check the file path.")
 
 # --- WHAT I DO SECTION ---
 with st.container():
