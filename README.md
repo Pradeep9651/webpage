@@ -21,3 +21,50 @@ To run this portfolio locally, follow the steps below:
    ```bash
    git clone https://github.com/Pradeep9651/portfolio-website.git
    cd portfolio-website
+2.Install the required dependencies:
+    pip install -r requirements.txt
+    Run the Streamlit application:
+
+
+3.streamlit run source.py
+     View the site:
+     Open your browser and go to http://localhost:8501/ to view the website.
+
+##Project Structure
+portfolio-website/
+│
+├── assets/
+│   ├── profile-pic.png       # Profile picture displayed on the website
+│   ├── resume.pdf            # Downloadable resume file
+│
+├── source.py                 # Main Python file for the Streamlit app
+├── requirements.txt          # Python packages required to run the app
+└── README.md                 # Documentation and project information
+
+##Technologies Used
+ Python
+ Streamlit
+ Pillow (for image handling)
+ Git (for version control)
+ Markdown (for documentation)
+ ##Future Enhancements
+  Add a blog section to share articles and insights.
+  Implement a contact form for direct communication.
+  Integrate Google Analytics to monitor website traffic.
+##Contributing
+   Contributions are welcome! If you'd like to contribute, feel free to fork the repository and submit a pull request. Any improvements or suggestions are appreciated.
+
+##License
+   This project is licensed under the MIT License - see the LICENSE file for details.
+
+##Contact
+   Feel free to connect with me on LinkedIn or check out my other projects on GitHub.
+
+
+### Key Points:
+- **Markdown Formatting:** The README uses standard Markdown formatting for headings, lists, and code blocks.
+- **Clarity:** The file clearly explains what the project is about, how to install and run it, and the structure of the project.
+- **Contribution and Contact:** Sections encourage collaboration and provide ways to reach you.
+
+This README template should serve as a strong introduction to your portfolio project on GitHub.
+
