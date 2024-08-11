@@ -41,7 +41,7 @@ portfolio-website/
 ├── requirements.txt          # Python packages required to run the app
 └── README.md                 # Documentation and project information
 
-##Technologies Used
+## Technologies Used
  Python
  Streamlit
  Pillow (for image handling)
@@ -51,17 +51,17 @@ portfolio-website/
   Add a blog section to share articles and insights.
   Implement a contact form for direct communication.
   Integrate Google Analytics to monitor website traffic.
-##Contributing
+## Contributing
    Contributions are welcome! If you'd like to contribute, feel free to fork the repository and submit a pull request. Any improvements or suggestions are appreciated.
 
-##License
+## License
    This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
+## Contact
    Feel free to connect with me on LinkedIn or check out my other projects on GitHub.
 
 
-### Key Points:
+## Key Points:
 - **Markdown Formatting:** The README uses standard Markdown formatting for headings, lists, and code blocks.
 - **Clarity:** The file clearly explains what the project is about, how to install and run it, and the structure of the project.
 - **Contribution and Contact:** Sections encourage collaboration and provide ways to reach you.
