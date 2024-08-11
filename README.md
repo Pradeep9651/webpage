@@ -51,6 +51,11 @@ portfolio-website/
   Add a blog section to share articles and insights.
   Implement a contact form for direct communication.
   Integrate Google Analytics to monitor website traffic.
+
+## Screenshot
+![1](https://github.com/Pradeep9651/webpage/blob/master/assets/Screenshot%202024-08-11%20190648.png)
+Link of website:
+https://pradeepyadav.streamlit.app/
 ## Contributing
    Contributions are welcome! If you'd like to contribute, feel free to fork the repository and submit a pull request. Any improvements or suggestions are appreciated.
 
