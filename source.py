@@ -8,7 +8,7 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 resume_file = current_dir / "assets" / "CV_Pradeep_Yadav.pdf"
 
 # --- PAGE SETTINGS ---
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(page_title="Pradeep Yadav", page_icon=":tada:", layout="wide")
 
 # --- HEADER ---
 with st.container():
