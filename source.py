@@ -2,7 +2,7 @@ from pathlib import Path
 import streamlit as st
 from PIL import Image
 
-# ---- PATH SETTINGS ----
+# --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 profile_pic = current_dir / "assets" / "profile-pic.png"
 resume_file = current_dir / "assets" / "CV_Pradeep_Yadav.pdf"
@@ -21,7 +21,7 @@ with st.container():
         st.subheader("Know more:")
         st.write("[LinkedIn >](https://www.linkedin.com/in/pradeep-yadav-5aa47a20b/)")
         st.write("[GitHub >](https://github.com/Pradeep9651)")
-
+        st.write("[Email >](https://gmai.com/yadavpradeep2313@gmail.com)")
     with right_column:
         if profile_pic.exists():
             img = Image.open(profile_pic)
